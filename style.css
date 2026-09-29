@@ -44,3 +44,21 @@ button {
 button:hover {
     background: #0055aa;
 }
+
+input,
+select,
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+}
+
+#reportList {
+    margin-top: 15px;
+}
