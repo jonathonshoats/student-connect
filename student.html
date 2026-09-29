@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Portal</h1>
+</header>
+
+<main>
+
+    <div class="card">
+        <h2>Submit a Report</h2>
+
+        <input
+            type="text"
+            id="title"
+            placeholder="Report Title"
+        >
+
+        <select id="category">
+            <option>Bullying</option>
+            <option>Academic</option>
+            <option>Mental Health</option>
+            <option>Schedule</option>
+            <option>Technology</option>
+            <option>Other</option>
+        </select>
+
+        <textarea
+            id="description"
+            placeholder="Describe the issue"
+        ></textarea>
+
+        <button onclick="submitReport()">
+            Submit
+        </button>
+    </div>
+
+    <div class="card">
+        <h2>Submitted Reports</h2>
+        <div id="reportList"></div>
+    </div>
+
+</main>
+
+script.jsscript>
+
+</body>
+</html>
